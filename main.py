@@ -13,9 +13,9 @@ app.add_middleware(
 )
 
 T = 60
-MODEL_PATH = "models/bilstm_attention.keras"
-SCALER_PATH = "models/scaler_pipino.pkl"
-ENCODER_PATH = "models/label_encoder_pipino.pkl"
+MODEL_PATH = "models/bilstm_attention50.keras"
+SCALER_PATH = "models/scaler_pipino50.pkl"
+ENCODER_PATH = "models/label_encoder_pipino50.pkl"
 
 @tf.keras.utils.register_keras_serializable()
 class TFLiteAttentionPooling(tf.keras.layers.Layer):
